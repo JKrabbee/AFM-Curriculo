@@ -51,13 +51,11 @@ h2{
 ol li{
     list-style: upper-latin;
     list-style-position: inside;
+    font-size: 3vmax;
 }
 
 ul li{
     list-style-position: inside;
-}
-
-li{
     font-size: 3vmax;
 }
 
@@ -65,7 +63,7 @@ li{
     color: blueviolet;
 }
 
-.tel{
+.contact{
     color: blueviolet;
     text-decoration: none;
 }
