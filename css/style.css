@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+}
+aside{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 25vw;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+}
+.container{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+aside img{
+    width: 20vmax;
+    border-radius: 50%;
+    border: 0.25vmax white solid;
+}
+aside li{
+    list-style: none;
+}
+ul a{
+    margin: 0.5vmax;
+    font-size: 1.7vmax;
+    color: white;
+    text-decoration: none
+}
+
+/* direita */
+main{
+    position: absolute;
+    bottom: 50%;
+    left: 30vmax;
+    transform: translate(0,50%);
+    margin-right: 5vw;
+    
+}
+h1{
+    font-size: 5vmax;
+}
+h2{
+    font-size: 2vmax;
+}
+ol li{
+    list-style: upper-latin;
+    list-style-position: inside;
+}
+
+ul li{
+    list-style-position: inside;
+}
+
+li{
+    font-size: 3vmax;
+}
+
+.dadosPessoais span{
+    color: blueviolet;
+}
+
+.tel{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.descricao{
+    margin: 3vmax 0 3vmax 0;
+    font-size: 1.5vmax;
+    text-align: justify;
+}
+
+.rSociais ul{
+    display: flex;
+}
+.rSociais li{
+    list-style: none;
+    margin-right: 2vmax;
+}
+.rSociais img{
+    width: 3vmax;
+}
